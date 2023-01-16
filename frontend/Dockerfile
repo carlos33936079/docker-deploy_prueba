@@ -1,8 +1,8 @@
-FROM node:18
+FROM node:14
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
-COPY . /usr/src/app
+COPY . /app
 
 ENV REACT_APP_REST=/api
 
